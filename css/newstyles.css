@@ -1,0 +1,490 @@
+html, body, div, span, applet, object, iframe,  h1, h2, h3, h4, h5, h6, blockquote, pre,  a, abbr, acronym, address, big, cite, code,  del, dfn,  img, ins, kbd, q, s, samp,  small, strike, strong, sub, sup, tt, var,   u,  center,  dl, dt, dd, ol, ul, li,  fieldset, form, label, legend,  caption, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary,  time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	
+}
+body {
+	background:#ebf1e5 url(../newimages/topbg_sd.jpg) top left repeat-x;
+	font:normal 14px Arial, Helvetica, sans-serif;
+	color:#1f201d;
+}
+
+@font-face {
+    font-family: 'bitstream_vera_serifbold';
+    src: url('../fonts/verasebd-webfont.eot');
+    src: url('../fonts/verasebd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/verasebd-webfont.woff') format('woff'),
+         url('../fonts/verasebd-webfont.ttf') format('truetype'),
+         url('../fonts/verasebd-webfont.svg#bitstream_vera_serifbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gnuolanefree';
+    src: url('../fonts/gnuolane_free-webfont.eot');
+    src: url('../fonts/gnuolane_free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gnuolane_free-webfont.woff') format('woff'),
+         url('../fonts/gnuolane_free-webfont.ttf') format('truetype'),
+         url('../fonts/gnuolane_free-webfont.svg#gnuolanefree') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h2 {
+	font-size:19px;
+	letter-spacing:-1px;
+	padding-top:10px;
+}
+.clear {
+	clear:both;
+}
+.font11 {font-size:11px;}
+
+#main-container {
+	width:965px;
+	margin:0 auto;
+}
+
+.top {
+	overflow:hidden;
+}
+.logo {
+	float:left;
+	width:380px;
+	margin-top:10px;
+}
+.topright {
+	float:right;
+	width:480px;
+	text-align:right;
+}
+
+.topmenu {
+	margin:-1px 0px 0px 0px;
+	height:48px;
+}
+.topmenu1 {
+	margin:-1px 0px 0px 0px;
+	height:48px;
+	padding-top:10px;
+}
+#nav{
+	list-style:none;
+	margin-bottom:10px;
+	/* Clear floats 
+	float:left;*/
+	width:100%;
+	/* Bring the nav above everything else--uncomment if needed.*/
+	position:relative;
+	z-index:5;
+}
+
+#nav li{
+	float:left; height:39px;
+	margin-right:4px;
+	padding-right:6px;
+	margin-left:0px;
+	position:relative; 
+	background: url(../newimages/divider.png) right top no-repeat;
+}
+#nav li ul li{
+	background: none;
+}
+#nav a{height:17px;
+	display:block;
+	padding:12px 18px; 
+	color:#fff;
+	/*
+	background:#333;
+	*/
+	text-decoration:none;
+	border-bottom:1px solid none;
+	border-top:1px solid none;
+	border-left:1px solid none;
+	border-right:1px solid none;
+}
+#nav a:hover{ height:17px;
+	color:#fff; 
+	background:#6b0c36;
+	text-decoration:none;
+}
+
+/*--- DROPDOWN ---*/
+#nav ul{
+	background:#343434; width:190px; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	/*
+	background:rgba(255,255,255,0);  But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	border: 3px solid #616060;
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+	padding-bottom:5px; -moz-border-radius: 5px;
+	border-radius:5px;
+	-webkit-border-radius: 5px;">
+	
+}
+#nav ul li{
+	padding:2px 0px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	margin-left:3px; margin-right:3px;
+	float:none;
+	border-bottom: 1px solid #595858;
+	border-top: 0px solid #343434;
+	
+}
+#nav ul li.first-item {border-top:none!important}
+#nav ul li.last-item {border-bottom:none!important}
+
+#nav ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+}
+#nav li:hover > a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	background: url(../newimages/ru_bg.png) center top repeat-x;
+	text-decoration:none; -moz-border-radius: 5px;
+	padding:11px 17px; 
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+	border-bottom:1px solid #bbbbbb;
+	border-top:1px solid #0b0b0b;
+	border-left:1px solid #242424;
+	border-right:1px solid #242424;
+}
+
+#nav li:hover ul a{background:#343434; /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#nav  ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+background-color:#3E3E3E;
+	text-decoration:none;
+}
+
+#nav li.active_my > a {
+background: url(../newimages/ru_bg.png) center top repeat-x;
+	text-decoration:none; -moz-border-radius: 5px;
+	padding:11px 17px; 
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+	border-bottom:1px solid #bbbbbb;
+	border-top:1px solid #0b0b0b;
+	border-left:1px solid #242424;
+	border-right:1px solid #242424;}
+/* -- top header section -- */
+
+.tophead {
+	clear:both;
+	overflow:hidden;
+	background:url(../newimages/tophead-bg.png) left bottom no-repeat;
+	margin-top:30px;
+	height:320px;
+}
+.tophead1 {
+	clear:both;
+	overflow:hidden;
+	background:url(../newimages/tophead-bg.png) left bottom no-repeat;
+	margin-top:30px;
+	height:240px;
+}
+.topheadcontainer {
+	background:#fff;
+	height:260px;
+	padding:10px;
+	
+}
+.topheadcontainer1 {
+	background:#fff;
+	height:189px;
+	padding:10px;
+	
+}
+.slider {
+	float:left;
+	width:665px;
+	height:270px;
+}
+.promotions {
+	float:right;
+	width:270px;
+	height:270px;
+	background:#94b93b;
+}
+.slider1 {
+	float:left;
+	width:665px;
+	height:189px;
+}
+.promotions1 {
+	float:right;
+	width:270px;
+	height:189px;
+	background:#94b93b;
+}
+/* -- content -- */
+
+.content {
+	clear:both;
+	padding:10px;
+	margin-top:10px;
+	/*background: url(../images/box_top.png) left top no-repeat, url(../images/box_footer.png) left bottom no-repeat, url(../images/box_mid.png) left top repeat-y;*/
+
+
+}
+.content p {
+	line-height:1.5em;
+	text-align:justify;
+}
+.contentfoot {
+	background: url(../newimages/footer-bg.jpg) center no-repeat;
+	margin-top:40px;
+	height:116px;
+}
+
+.leftcontent {
+	float:left;
+	width:655px;
+}
+.leftcontent ul {
+	margin:10px 0px 0px 20px;
+}
+.leftcontent ul li {
+	padding-left:10px;
+	line-height:1.5em;
+}
+.rightcontent {
+	float:right;
+	width:250px;
+	background:none;
+	height: auto;
+}
+.rightcontent h4 {
+	font-size:18px;
+	padding:0px 0px 5px 0px;
+}
+.newSection {
+width:250px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+	border-bottom:1px dotted #969696;
+}
+.quicklinks ul li { 
+    list-style:none; 
+    text-indent:15px; 
+    background:url(../images1/arow.png) left center no-repeat;
+	margin:0px 10px 0px 10px;
+	line-height:1.8em; 
+	border-bottom:1px solid #FFFFFF;
+}
+
+.homegallery ul li {
+	list-style:none;
+	float:left;
+	width:125px;
+	margin-bottom:10px;
+}
+.homegallery img {
+	background:#fff;
+	padding:3px;
+	border:1px solid #cacaca;
+}
+.quickbooking {
+	font-size:12px;
+}
+
+/* -- quick booking form --*/
+
+
+.planmytrip {display:block; line-height:17px; width:100px; text-align:center; text-decoration:none; color:#FFFFFF; 
+
+}
+.planmytrip a { display:block; line-height:17px; width:100px; text-align:center; text-decoration:none; color:#FFFFFF;
+	background: url(../newimages/red_ru.png) center top repeat-x;
+	text-decoration:none; -moz-border-radius: 5px;
+	padding:11px 17px; 
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+	border-bottom:1px solid #bbbbbb;
+	border-top:1px solid #0b0b0b;
+	border-left:1px solid #242424;
+	border-right:1px solid #242424;
+	font-weight:bold;
+}
+.planmytrip a:hover { line-height:17px; text-align:center; text-decoration:none; color:#FFFFFF;
+	background: url(../newimages/ru_bg1.png) center top repeat-x;
+	text-decoration:none; -moz-border-radius: 5px;
+	padding:11px 17px; 
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+	border-bottom:1px solid #bbbbbb;
+	border-top:1px solid #0b0b0b;
+	border-left:1px solid #242424;
+	border-right:1px solid #242424;
+}
+
+/* -- footer -- */
+.footer {
+	clear:both;
+	background:#6da905;
+	padding:40px 0px 30px 0px;
+	height:auto;
+}
+.footercontainer {
+	margin:0 auto;
+	width:965px;
+}
+.footer h4 {
+	text-transform:uppercase;
+	font-size:14px;
+	color:#d5f69c;
+	padding-bottom:3px;
+	border-bottom:1px solid #94d522;
+}
+.footer ul {
+	list-style:none;
+	margin-top:10px;
+}
+.footer ul li {
+	margin:0px 0px 0px 10px;
+	line-height:1.6em;
+	background:url(../newimages/arrow.jpg) left center no-repeat;
+	padding-left:12px;
+}
+.footer a {
+	color:#d5f69c;
+	text-decoration:none;
+}
+.footer a:hover {
+	text-decoration:underline;
+	color:#000;
+}
+.fcol1 {
+	width:180px;
+	float:left;
+	font-size:12px;
+	margin-right:10px;
+}
+
+
+/* -- error for booking -- */
+.error_strings{ font-family:Verdana; font-size:11px; color:red; font-family:Arial, Helvetica, sans-serif;}
+.error_strings li {margin-left:20px;}
+
+tr.d1 td {
+	background-color: #EAF6AE;
+}
+tr.d2 td {
+	background-color: #EAF6AE;
+}
+tr.d3 td {
+	background-color: #EAF6AE;
+}
+/* 
+input[type=text], textarea {
+	padding: 4px 10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(../scripts/PIE.htc);
+	border:1px solid #DBEA92;
+	outline:none;
+	color:#000;
+	position:relative;
+	background-color: #FEFFF9;
+}  
+.booking-form input[type=text]:hover, .booking-form textarea:hover { border: 1px solid #f4b184; }
+*/
+.booking-form td {padding:3px 5px;}
+
+.box979{width:979px; margin:0 auto}
+.box_top{width:979px; height:33px; float:left; background: url(../images/box_top.png) left top no-repeat;}
+.box_mid{width:959px; height: auto; float:left; padding:0 10px; background: url(../images/box_mid.png) left top repeat-y;}
+.box_mid_bkp{width:959px; height: auto; float:left; padding:0 10px; background: url(../images/box_mid_bkp.png) left top repeat-y;}
+.box_footer{width:979px; height:33px; float:left; background: url(../images/box_footer.png) left top no-repeat;}
+.box555{ width:194px; margin:0 auto;}
+.planyourtrip{width:194px; height:48px; text-align:center;   }
+	
+.planyourtrip a{width:194px; height:48px; background: url(../images/plan555.png) left top no-repeat; display:block;}
+.planyourtrip a:hover{width:194px; height:48px; background: url(../images/plan555.png) left -66px no-repeat; display:block; }
+.s{width:90px; height:30px; background: url(../images/s.png) left top no-repeat; display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; text-decoration: none; text-transform:capitalize; font-weight:bold; border:0; outline: none; cursor:pointer;}
+.s:hover{width:90px; height:30px; background: url(../images/s.png) left -34px no-repeat; display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; text-decoration: none; text-transform:capitalize; font-weight:bold; border:0; outline: none;cursor:pointer;}		
+
+.stylefont{
+	font-family:'gnuolanefree','bitstream_vera_serifbold', Verdana, Arial, Helvetica, sans-serif;
+	color:#234502;
+	font-size:25px;
+	font-weight:bold;
+	text-align:center;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+}
+.stylefonts{
+	font-family:'gnuolanefree', 'bitstream_vera_serifbold', Verdana, Arial, Helvetica, sans-serif;
+	color:#333333;
+	font-size:20px;
+	font-weight:normal;
+	text-align:center;
+	letter-spacing: 1px;
+	word-spacing:3px;
+}
+
+.quickpart {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #575857;
+	text-decoration: none;
+}
+a:hover.quickpart {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #AC0E1A;
+	text-decoration: none;
+}
+/* styles from  */
+
+.form-bg{ background-image:url(../images/form-bg.png); background-position:top center; background-repeat:no-repeat; width:210px; height:540px; padding:30px 24px 0 24px; font-family:Arial, Helvetica, sans-serif;}
+.form-bg h1{ margin:0; padding:0; font-size:22px; color:#60810c; font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; text-align:center; display:block; margin-bottom:45px;}
+.form-bg div{ display:block; margin-bottom:10px; color:#FFF; font-size:12px;}
+.form-bg span{ display:inline-block;}
+.f-color{ background-color:#FFF; border:solid 1px #2ba82d; padding-left:10px; color:#000;}
+.input-l{width:195px; height:24px;}
+.input-m{width:89px; height:24px;}
+.input-s1{width:49px; height:24px; padding-left:2px}
+.input-s2{width:66px; height:24px; padding-left:2px}
+.input-s3{width:72px; height:24px; padding-left:2px}
+.sml-txt{ font-size:10px; color:#FFF; padding-right:18px;}
+.sml-txtp{ padding-left:0;}
+.sml-txtp1{ padding-left:7px;}
+.scode{padding-top:5px; padding-right:5px;}
+.scd{ padding-left:82px;}
+.inp{text-align:center; padding-top:10px;}
+.form-bg input:focus {
+      background: #c6ffc7;   
+} 
+.inpu-btn{ border:0;}
+.inpu-btn:hover{-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);}
+/*Muniraj Styles Ends*/
+.inpu-btn:focus{-webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+-moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+box-shadow: 0 0 1px rgba(0,0,0, .75);}
+.nbanner{ width:981px; height:306px; background-image:url(../images/banner-left.png); background-position:left; background-repeat:no-repeat;}
+.nbanner-r{ width:981px; height:306px; background-image:url(../images/banner-right.png); background-position:top right; background-repeat:no-repeat;}
+.nbanner-c{ width:981px; height:306px; background-image:url(../images/banner-center.png); background-position:center; margin-top:10px;}
+.ibanner-1{ float:left; padding:20px 0 0 16px;}
+.ibanner-2{ float:right; padding:20px 18px 0 0;}

@@ -1,0 +1,1 @@
+<a href="https://www.facebook.com/traveldandeli" target="_blank"><img src="../newimages/promo1.jpg" / alt="Like Us & Win a Free Trip!" width="270" height="189" border="0"></a>

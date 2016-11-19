@@ -1,0 +1,316 @@
+html, body, div, span, applet, object, iframe,  h1, h2, h3, h4, h5, h6, blockquote, pre,  a, abbr, acronym, address, big, cite, code,  del, dfn, em, img, ins, kbd, q, s, samp,  small, strike, strong, sub, sup, tt, var,  b, u, i, center,  dl, dt, dd, ol, ul, li,  fieldset, form, label, legend,  caption, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary,  time, mark, audio, video {
+	margin: 0;
+	padding: 0;#FBFEE9
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	
+}
+body {
+	background:#ebf1e5 url(../newimages/topbg.jpg) top left repeat-x;
+	font:normal 14px Arial, Helvetica, sans-serif;
+	color:#1f201d;
+}
+h2 {
+	font-size:21px;
+	letter-spacing:-1px;
+	padding-top:10px;
+}
+.clear {
+	clear:both;
+}
+.font11 {font-size:11px;}
+
+#main-container {
+	width:965px;
+	margin:0 auto;
+}
+
+.top {
+	overflow:hidden;
+}
+.logo {
+	float:left;
+	width:380px;
+	margin-top:10px;
+}
+.topright {
+	float:right;
+	width:480px;
+	text-align:right;
+}
+
+.topmenu {
+	margin:17px 0px 0px 0px;
+	height:30px;
+}
+
+#nav{
+	list-style:none;
+	margin-bottom:10px;
+	/* Clear floats 
+	float:left;*/
+	width:100%;
+	/* Bring the nav above everything else--uncomment if needed.*/
+	position:relative;
+	z-index:5;
+}
+
+#nav li{
+	float:left;
+	/*margin-right:5px;
+	margin-left:5px;*/
+	position:relative; 
+}
+#nav a{
+	display:block;
+	padding:5px 22px;
+
+	color:#fff;
+	background: url(../newimages/divider.png) right top no-repeat;
+	/*
+	background:#333;
+	*/
+	text-decoration:none;
+	
+}
+#nav a:hover{
+	color:#fff;
+	background:#6b0c36;
+	text-decoration:none;
+}
+
+/*--- DROPDOWN ---*/
+#nav ul{
+	background:#393838; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	/*
+	background:rgba(255,255,255,0);  But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+	padding-bottom:5px;
+}
+#nav ul li{
+	padding:4px 0px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	margin-left:10px;
+	float:none;
+	border-bottom: 1px solid #1e1e1e;
+	border-top: 1px solid #555555;
+}
+#nav ul li.first-item {border-top:none!important}
+#nav ul li.last-item {border-bottom:none!important}
+
+#nav ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+}
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	background:#393838;
+	text-decoration:none;
+}
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	background:#222;
+}
+
+
+/* -- top header section -- */
+
+.tophead {
+	clear:both;
+	overflow:hidden;
+	background:url(../newimages/tophead-bg.png) left bottom no-repeat;
+	margin-top:30px;
+	height:320px;
+}
+.topheadcontainer {
+	background:#fff;
+	height:260px;
+	padding:10px;
+	
+}
+.slider {
+	float:left;
+	width:665px;
+	height:270px;
+}
+.promotions {
+	float:right;
+	width:270px;
+	height:270px;
+	background:#94b93b;
+}
+
+/* -- content -- */
+
+.content {
+	clear:both;
+	padding:10px;
+	margin-top:10px;
+	/*background: url(../images/box_top.png) left top no-repeat, url(../images/box_footer.png) left bottom no-repeat, url(../images/box_mid.png) left top repeat-y;*/
+
+
+}
+.content p {
+	line-height:1.5em;
+	text-align:justify;
+}
+.contentfoot {
+	background: url(../newimages/footer-bg.jpg) 0 0 no-repeat;
+	margin-top:40px;
+	height:116px;
+}
+
+.leftcontent {
+	float:left;
+	width:655px;
+}
+.leftcontent ul {
+	margin:10px 0px 0px 20px;
+}
+.leftcontent ul li {
+	padding-left:10px;
+	line-height:1.5em;
+}
+.rightcontent {
+	float:right;
+	width:250px;
+	background:none;
+	border-left:1px solid #edf5db;
+	height: auto;
+}
+.rightcontent h4 {
+	font-size:18px;
+	padding:0px 0px 5px 0px;
+}
+.newSection {
+width:250px;
+	margin-bottom:20px;
+	padding-bottom:0px;
+	border-bottom:1px solid #edf5db;
+}
+.quicklinks ul li { 
+    list-style:none; 
+    text-indent:15px; 
+    background:url(../images1/arow.png) left center no-repeat;
+	margin:0px 10px 0px 10px;
+	line-height:1.8em; 
+	border-bottom:1px solid #FFFFFF;
+}
+
+.homegallery ul li {
+	list-style:none;
+	float:left;
+	width:125px;
+	margin-bottom:10px;
+}
+.homegallery img {
+	background:#fff;
+	padding:3px;
+	border:1px solid #cacaca;
+}
+.quickbooking {
+	font-size:12px;
+}
+
+/* -- quick booking form --*/
+
+
+.planmytrip {
+
+	-moz-border-radius: 3px;
+	border-radius:3px;
+	-webkit-border-radius: 3px;
+}
+
+
+
+/* -- footer -- */
+.footer {
+	clear:both;
+	background:#6da905;
+	padding:40px 0px 30px 0px;
+	height:auto;
+}
+.footercontainer {
+	margin:0 auto;
+	width:965px;
+}
+.footer h4 {
+	text-transform:uppercase;
+	font-size:14px;
+	color:#d5f69c;
+	padding-bottom:3px;
+	border-bottom:1px solid #94d522;
+}
+.footer ul {
+	list-style:none;
+	margin-top:10px;
+}
+.footer ul li {
+	margin:0px 0px 0px 10px;
+	line-height:1.6em;
+	background:url(../newimages/arrow.jpg) left center no-repeat;
+	padding-left:12px;
+}
+.footer a {
+	color:#d5f69c;
+	text-decoration:none;
+}
+.footer a:hover {
+	text-decoration:underline;
+	color:#000;
+}
+.fcol1 {
+	width:180px;
+	float:left;
+	font-size:12px;
+	margin-right:10px;
+}
+
+
+/* -- error for booking -- */
+.error_strings{ font-family:Verdana; font-size:11px; color:red; font-family:Arial, Helvetica, sans-serif;}
+.error_strings li {margin-left:20px;}
+
+tr.d1 td {
+	background-color: #EAF6AE;
+}
+tr.d2 td {
+	background-color: #EAF6AE;
+}
+tr.d3 td {
+	background-color: #EAF6AE;
+}
+
+input[type=text], textarea { 
+	padding: 4px 10px; 	
+	-moz-border-radius: 4px; 
+	-webkit-border-radius: 4px; 
+	-khtml-border-radius: 4px;
+	border-radius: 4px; 
+	behavior: url(../scripts/PIE.htc);
+	background: #FBFEE9; 
+	border:1px solid #DBEA92;
+	outline:none;
+	color:#000;
+	position:relative;
+}  
+.booking-form input[type=text]:hover, .booking-form textarea:hover { border: 1px solid #f4b184; }
+.booking-form td {padding:3px 5px;}
+
+.box979{width:979px; margin:0 auto}
+.box_top{width:979px; height:33px; float:left; background: url(../images/box_top.png) left top no-repeat;}
+.box_mid{width:959px; height: auto; float:left; padding:0 10px; background: url(../images/box_mid.png) left top repeat-y;}
+.box_footer{width:979px; height:33px; float:left; background: url(../images/box_footer.png) left top no-repeat;}
+.box555{ width:194px; margin:0 auto;}
+.planyourtrip{width:194px; height:48px; text-align:center;   }
+	
+.planyourtrip a{width:194px; height:48px; background: url(../images/plan555.png) left top no-repeat; display:block;}
+.planyourtrip a:hover{width:194px; height:48px; background: url(../images/plan555.png) left -66px no-repeat; display:block; }
+.s{width:83px; height:30px; background: url(../images/s.png) left top no-repeat; display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; text-decoration: none; text-transform:capitalize; font-weight:bold; border:0; outline: none; cursor:pointer;}
+.s:hover{width:83px; height:30px; background: url(../images/s.png) left -34px no-repeat; display:block; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; text-decoration: none; text-transform:capitalize; font-weight:bold; border:0; outline: none;cursor:pointer;}		

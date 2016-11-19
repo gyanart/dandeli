@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+.topmenu1 {
+	padding-top:10px!important;
+}
+ul.dropdown {
+ font: normal 14px/normal Arial, Helvetica, sans-serif;
+ /*text-transform: lowercase;*/
+ cursor:pointer;
+}
+
+	ul.dropdown li {
+	 padding: 0 10px;
+	 background-color: transparent;
+	 color: #000; /* rajiv: heading for the sub menu color */
+	 cursor:pointer;
+	 line-height:3.0em;
+	}
+
+	ul.dropdown li.hover,
+	ul.dropdown li:hover {
+	 background-color: #343434; /* rajiv */
+	 color: #fff;
+	}
+
+	ul.dropdown a:link,
+	ul.dropdown a:visited	{ color: #fff; text-decoration: none; } /* rajiv */
+	ul.dropdown a:hover		{ color: #fff; } /* rajiv */
+	ul.dropdown a:active	{ color: #ffa500; }
+
+	/* -- level mark -- */
+
+	ul.dropdown ul {
+	 background-color: #343434; /* rajiv */
+	 font-size: 12px;
+	 letter-spacing: normal;
+	 border-top:5px solid orange; /* rajiv */
+	 border-bottom:5px solid orange; /* rajiv */
+	}
+		ul.dropdown ul.lessWidthDropdown {
+		 width:60%!important;
+		}
+
+		ul.dropdown ul li {
+		 font-weight: normal; /* rajiv */
+		}
+
+		ul.dropdown li.last ul li {
+		 float: right;
+		}
+
+		/* -- level mark -- */
+
+		ul.dropdown ul ul {
+		 margin-top: 5px;
+		 text-transform: none;
+		}
+
+			ul.dropdown ul ul li {
+			 font-weight: normal;
+			 line-height:2em!important;
+			 border:none!important;
+			}
+
+
+/* -- Supporting class `dir` -- */
+
+ul.dropdown *.dir {
+ padding-right: 30px;
+ background-image: url(/newimages/drop-down.png);
+ background-position: 100% 50%;
+ background-repeat: no-repeat;
+}
+
+ul.dropdown ul *.dir {
+ background-image: none;
+}
+#padding{color:#FFF; border-right: solid 1px #999;}
+ul.dropdown a:link, ul.dropdown a:visited #padding{color:#FFF;}
+
+/* ==============================================================================================================*/
+/* -- Base style extension -- */
+
+ul.dropdown li a {
+ display: block;
+ padding: 0px 10px;
+}
+
+
+/* -- Base style override -- */
+
+ul.dropdown li {
+ padding: 0;
+}
+
+
+/* -- Base style reinitiate: post-override activities -- */
+
+ul.dropdown li.dir {
+ padding: 0 30px 0 10px;
+}
+
+	ul.dropdown ul li.dir {
+	 padding: 10px;
+	}
+		ul.dropdown ul li.title span {
+		 background-color: #e4e4e4!important;
+		 padding:4px 6px;
+		 font-weight:bold;
+		}
+
+
+/* -- Custom styles -- */
+
+ul.dropdown ul {
+ padding: 0 10px;
+}
+
+	ul.dropdown ul a {
+	 width: 140px;
+	 padding: 3px 5px;
+
+	 border-bottom:1px solid #595858; /* rajiv */
+	}
+
+	ul.dropdown ul a:hover {
+	 background-color: #ffa500;
+	 color: #fff;
+	}
+
+		ul.dropdown ul ul {
+		 padding: 0;
+		 margin-left: -5px; 
+		 border:none!important;
+		}

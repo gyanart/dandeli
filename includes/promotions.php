@@ -1,0 +1,1 @@
+<img src="http://www.dandeli.com/newimages/price.png" / alt="Karnataka Travel Guide" width="270" height="270" border="0" />

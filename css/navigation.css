@@ -1,0 +1,440 @@
+/**
+* @author	Jasal Vadgama/Simon Wyse - Javelin Group
+* @version	1.0
+* @media	screen
+*
+* @info		Page frame and standard components stylesheet
+*
+* @contents
+* =1: Main Container
+*
+* =2: Header
+*	=2.1: Skip Links
+*	=2.2: Main Navigation
+*	=2.3: Basket
+*		=2.3.1: Login/Account Line
+*		=2.3.2: Search Box
+*	=2.4: Breadcrumb
+* 
+* =3: Left Nav
+*	=3.1: Fredhopper Lists
+*	=3.2: Additonal Nav Boxes
+*	=3.3: Static Left Nav
+* 
+* =4: Footer
+*
+* =5: Copyright Notice
+*
+* =6: Worlds Support
+*
+* =7: Static Content
+*
+*/
+
+/**
+* =1: Main Container
+*
+* @info Main container section
+*/
+body { background: #f8f7f5; }
+.access, .hidden {
+	position: absolute;
+
+}
+
+#bcrumbWrapper, #content { clear: both; }
+/** float clearing fox for firefox */
+#pageWrapper:after,
+#pageWrapper #header:after,
+#topNav ul#mainNav li .subnav ul.subnavContent:after,
+#basket .accountBox:after,
+.breadcrumb:after,
+.productImages .productHero #productImageTabBlock:after,
+#footer:after,
+.listerOverlayContent:after,
+.addToCartMsg:after,
+#qfinder ul:after,
+#catMifWrapper:after,
+div#mifHeroPanelContent:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/** end fix */
+#pageWrapper {
+	margin: 0 auto;
+	width: 964px;
+	background: #fff;
+	border-right: 17px solid #fff;
+	border-bottom: 17px solid #fff;
+	border-left: 17px solid #fff;
+}
+#pageWrapper table, #pageWrapper #contentWrapper { margin: 0 auto; }
+#masthead { width: 994px; }
+
+.debug {
+	clear: left;
+	background:wheat;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+	-moz-opacity:0.6;
+}
+
+/**
+* =2: Header
+*
+* @info Page header
+*/
+#pageWrapper #header {
+	padding: 0px;
+	width: 964px;
+	background: #fff;
+}
+#header h1 {
+	float: left;
+	padding: 39px 33px 0 13px;
+}
+#header div.bandqlogo {
+	float: left;
+	padding: 17px 17px 0px 0px;
+}
+#header div.bandqlogo img{
+	display:block;
+}
+
+/**
+* =2.1: Skip Links
+*
+* @info Accessibility links for skipping to specific content
+*/
+#skipNav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+#skipNav li a {
+	position: absolute;
+	width: 0; 
+	height: 0; 
+	overflow: hidden;
+	border: 0px;
+}
+#skipNav li a:active, #skipNav a:focus {
+	position: absolute;
+	top: 40px;
+	left: 88px;
+	z-index: 1000;
+	width: 670px; 
+	height: auto; 
+	padding: 5px;
+	overflow: visible;
+	background-color:#999;
+	border: 1px solid #f60;
+	font-weight: bold;
+	color: #fff;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+/**
+* =2.2: Main Navigation
+*
+* @info Main site navigation
+**/
+#header .navBorder {
+	float: left;
+	width: 561px;
+	height: 6px;
+	background: #fff url(images/nav-border-top.jpg) top left no-repeat;
+	overflow: hidden;
+}
+#header #topNav {
+	float: right;
+	display:inline;
+	width: 900px;
+}
+#topNav ul#mainNav {
+	float: left;
+	display:inline;
+	width: 900px;
+	height: 36px;
+}
+#topNav ul li {
+	float: left;
+	padding: 11px 51px 15px 0;
+	z-index: 5001; /*5001 so that the drops downs sit above the multimap controls in firefox*/
+}
+#topNav ul li a {
+	display: block;
+	height: 16px;
+}
+#topNav ul li.stores { padding-right: 0; }
+
+#HPpopularSearch h4, #topNav ul li.advice a, #topNav ul li.help a, #topNav ul li.social a, #topNav ul li.magazine a, #topNav ul li.stores a, #topNav ul#mainNav li.garden, #topNav ul#mainNav li.rooms, #topNav ul#mainNav li.decor, #topNav ul#mainNav li.fix, #topNav ul#mainNav li.build, #topNav ul#mainNav li.eco, #topNav ul#mainNav li.offers, #topNav ul#mainNav li.ideas_advice, #basket .cartContents p.shoppingList a, #footer h4, #topNav form, #basket a, a.storefinder_link   {background: url(images/chrome_sprites.png) no-repeat 0px 0px; outline:none}
+
+#topNav ul#mainNav li.christmas{background: url(images/special_nav_sprite.gif;diy6e480a25f82b92s9c) no-repeat 0px 0px; outline:none}
+
+#topNav ul#mainNav li {
+	position: relative;
+	margin: 0 0 10px 0;
+	padding: 0px;
+	height: 36px;
+}
+
+#topNav ul#mainNav li.garden { width: 66px; background-position: 0px -72px }
+#topNav ul#mainNav li.rooms { width: 149px; background-position: 0px -144px }
+#topNav ul#mainNav li.decor { width: 165px; background-position: 0px -216px}
+#topNav ul#mainNav li.fix { width: 122px; background-position: 0px -288px }
+#topNav ul#mainNav li.build { width: 116px; background-position: 0px -360px}
+#topNav ul#mainNav li.eco { width: 103px; background-position: 0px -432px }
+#topNav ul#mainNav li.christmas { width: 91px; background-position: -47px 0px }
+#topNav ul#mainNav li.offers { width: 61px; background-position:  0px -504px}
+#topNav ul#mainNav li.ideas_advice { width: 134px; background-position: 0px -576px}
+
+body#garden #topNav ul#mainNav li.garden, #topNav ul#mainNav li:hover.garden { background-position: 0px -36px}
+body#rooms #topNav ul#mainNav li.rooms, #topNav ul#mainNav li:hover.rooms{ background-position: 0px -108px}
+body#decor #topNav ul#mainNav li.decor, #topNav ul#mainNav li:hover.decor{ background-position: 0px -180px }
+body#fix #topNav ul#mainNav li.fix, #topNav ul#mainNav li:hover.fix{ background-position: 0px -252px }
+body#build #topNav ul#mainNav li.build, #topNav ul#mainNav li:hover.build{ background-position: 0px -324px }
+body#eco #topNav ul#mainNav li.eco, #topNav ul#mainNav li:hover.eco { background-position: 0px -396px; }
+body#christmas #topNav ul#mainNav li.christmas, #topNav ul#mainNav li:hover.christmas { background-position: -47px -36px }
+body#offers #topNav ul#mainNav li.offers, #topNav ul#mainNav li:hover.offers { background-position: 0px -468px }
+body#ideas_advice #topNav ul#mainNav li.ideas_advice, #topNav ul#mainNav li:hover.ideas_advice { background-position: 0px -540px }
+
+#HPpopularSearch h4 {
+	float:left;
+	width:142px;
+	height:17px;
+	margin-top:2px;
+	background-position:0px -696px;
+	
+}
+
+
+#topNav ul#mainNav li.over { background-position: bottom left; }
+
+#topNav ul#mainNav li a {
+	display: block;
+	height: 35px;
+	cursor:pointer;
+	text-decoration: none;
+}
+#topNav ul#mainNav li.hit {
+	background-position: bottom left;
+	padding-bottom: 0;
+}
+#topNav ul#mainNav li:hover div.subnav, #topNav ul#mainNav li.over div.subnav { display: block; }
+#topNav ul#mainNav li div.subnav {
+	display: none;
+	position: absolute;
+	top: 34px; /** Set 1px less than menu height */
+	left: 0px;
+	padding: 0 0 14px 0;
+	width: 839px;
+	background: url(images/subnav-bottom.png) bottom left no-repeat;
+}
+#topNav ul#mainNav li.garden div.subnav { left: -55px; }
+#topNav ul#mainNav li.rooms div.subnav { left: -141px; }
+#topNav ul#mainNav li.decor div.subnav { left: -219px; }
+#topNav ul#mainNav li.fix div.subnav { left: -293px; }
+#topNav ul#mainNav li.build div.subnav { left: -341px; }
+/*#topNav ul#mainNav li.offers div.subnav { left: -431px; }*/
+#topNav ul#mainNav li.offers .subnav { background: url(images/offers-subnav-bottom.png) bottom left no-repeat; }
+#topNav ul#mainNav li div .subnavTop {
+	padding-top: 14px;
+	width: 839px;
+}
+
+#topNav ul#mainNav li.garden .subnav .subnavTop { background: url(images/garden-subnav-top.gif) top left no-repeat; }
+#topNav ul#mainNav li.rooms .subnav .subnavTop { background: url(images/rooms-subnav-top.gif) top left no-repeat; }
+#topNav ul#mainNav li.decor .subnav .subnavTop { background: url(images/decor-subnav-top.gif) top left no-repeat; }
+#topNav ul#mainNav li.fix .subnav .subnavTop { background: url(images/fix-subnav-top.gif) top left no-repeat; }
+#topNav ul#mainNav li.build .subnav .subnavTop { background: url(images/build-subnav-top.gif) top left no-repeat; }
+#topNav ul#mainNav li.eco .subnav .subnavTop { background: url() top left no-repeat; }
+#topNav ul#mainNav li.offers .subnav .subnavTop { background: url(images/offers-subnav-top.gif) top left no-repeat; }
+
+#topNav ul#mainNav li .subnav ul.subnavContent {
+	padding: 3px 3px 0 1px;
+	width: 834px;
+	background: #fff;
+	list-style: none;
+	border-right: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+}
+#topNav ul#mainNav li .subnav ul.subnavContent li {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	width: 835px;
+	height: auto;
+}
+#topNav ul#mainNav li .subnav ul.subnavContent li a:hover { text-decoration: underline; }
+#topNav ul#mainNav li .subnav dl {
+	float: left;
+	margin: 0 0 0 3px !important;
+	padding: 0 0 6px 9px;
+	width: 196px;
+	background: #fff url(images/subnav-title-bg.jpg) 0 1px no-repeat;
+}
+#topNav ul#mainNav li .subnav dl dt { padding: 4px 0 12px 6px; }
+#topNav ul#mainNav li .subnav dl dt a { height: 1em; }
+#topNav ul#mainNav li .subnav dl dd { padding: 0 0 6px 6px; }
+#topNav ul#mainNav li .subnav dl dd a { height: 1%; }
+
+
+#topNav form {
+	float:right;
+	padding:0px 0px 0px 20px;
+	width:209px;
+	height:36px;
+	background-position:0px 0px;
+}
+#topNav form label {
+	visibility:hidden;
+}
+#topNav form input {
+	float: left;
+	width: 167px;
+	margin-top:6px;
+	border:0px;
+	padding:4px 5px;
+}
+#topNav form input#submitButton {
+	margin:0px;
+	padding:0px;
+	width: 32px;
+	height:36px;
+	cursor: pointer;
+	_margin-right:-6px;
+}
+
+
+/**
+* =2.3: Basket & Storefinderlink
+*
+* @info Basket, login and search for EPN
+**/
+#header #basket {
+	float: right;
+	width: 251px;
+	z-index: 1;
+}
+a.storefinder_link, #basket a{
+	float: right;
+	display:inline;
+	height:28px;
+	margin:0px 0px 14px 0px;
+	cursor:pointer
+	}
+
+#basket a {
+	width: 241px;
+	padding-right:10px;
+	line-height:27px;
+	background-position:0px -640px;
+	text-align:right;
+	text-decoration:none !important;
+}
+#basket a:hover {
+	background-position:0px -612px
+}
+a.storefinder_link{
+	height:28px;
+	width:140px;
+	background-position:-111px -64px;
+	text-indent:-9999em;
+	font-size:1px;
+	line-height:0.1em;
+	margin-right:10px;
+	_margin-right:5px;
+	
+	}
+
+a:hover.storefinder_link{
+	background-position:-111px -36px
+	}
+
+/**
+* =2.3.1: Login/Account Line
+*
+* @info Welcome message and sign in links above basket
+*/
+p.loginLine {
+	padding: 11px 0px 11px 0;
+	z-index: 10;
+	font-size:11px !important;
+}
+p.loginLine a{
+	text-decoration:none !important;
+}
+p.loginLine a:hover{
+	text-decoration:underline !important;
+}
+p.loginLine span{
+	position:relative;
+	top:-1px;
+	font-size:10px;
+	color:#e6e5e4;
+	padding:0px 6px;
+}
+
+
+/**
+* =2.3.2: Search Box
+*
+* @info Only occurs when the basket is not shown
+*/
+#basket .searchBox { padding-top: 76px; }
+
+/**
+* =2.3.3: EPMB
+*/
+#posMiniList {
+	z-index:6;
+}
+#miniListMask {
+	position:absolute;
+	top:72px;
+	left:0;
+	width: 206px;
+	max-height: 350px;
+	background: transparent;
+	overflow: hidden;
+}
+#miniListWrapper {
+	position: relative;
+	top: -450px;
+	left: 0;
+	padding-bottom:2px;
+	background:url(images/mini-shopping-list-border.gif) left bottom no-repeat;
+	font-size: 1em;
+}
+#miniListWrapper .miniListContent {
+	padding:0 10px 10px 10px;
+	width: 184px;
+	border-right: 1px solid #e9e5e6;
+	border-left: 1px solid #e9e5e6;
+	background: #fff;
+}
+#miniListWrapper h3 {
+	margin: 0;
+	padding-top: 10px;
+	font-size: 1em;
+	font-weight:bold;
+}
+#miniListWrapper ul {
+	padding:10px 5px 1px 0;
+	width: 184px;
+	overflow: hidden;
+	max-height:250px;
+}
+#miniListWrapper ul li {
+	display:block;
+	padding:10px 0;
+	border-top:1px solid #e9e5e6;
+	font-size:.9em;
+	line-height:1.1em;
+}
+

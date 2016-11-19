@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'bitstream_vera_serifbold';
+    src: url('../fonts/verasebd-webfont.eot');
+    src: url('../fonts/verasebd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/verasebd-webfont.woff') format('woff'),
+         url('../fonts/verasebd-webfont.ttf') format('truetype'),
+         url('../fonts/verasebd-webfont.svg#bitstream_vera_serifbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gnuolanefree';
+    src: url('../fonts/gnuolane_free-webfont.eot');
+    src: url('../fonts/gnuolane_free-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gnuolane_free-webfont.woff') format('woff'),
+         url('../fonts/gnuolane_free-webfont.ttf') format('truetype'),
+         url('../fonts/gnuolane_free-webfont.svg#gnuolanefree') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.sub33 {
+	font-family:'gnuolanefree','bitstream_vera_serifbold', Verdana, Arial, Helvetica, sans-serif; 
+	color:#234502; 
+	font-size:25px; 
+	font-weight:bold;
+}
+
+.sub_line {
+   background-color:#214002;
+   height:1px; 
+   margin-top:5px;
+}

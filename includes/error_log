@@ -1,0 +1,54 @@
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/head.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 8
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/head.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 8
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(): Failed opening 'includes/head.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 8
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/top.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 41
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/top.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 41
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(): Failed opening 'includes/top.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 41
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/menu.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 42
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/menu.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 42
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(): Failed opening 'includes/menu.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 42
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/promotions.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 48
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/promotions.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 48
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(): Failed opening 'includes/promotions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 48
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/rightContent.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 109
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/rightContent.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 109
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(): Failed opening 'includes/rightContent.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 109
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 122
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 122
+[27-May-2015 09:37:45 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 122
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/head.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 8
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/head.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 8
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(): Failed opening 'includes/head.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 8
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/top.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 41
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/top.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 41
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(): Failed opening 'includes/top.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 41
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/menu.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 42
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/menu.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 42
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(): Failed opening 'includes/menu.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 42
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/promotions.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 48
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/promotions.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 48
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(): Failed opening 'includes/promotions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 48
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/rightContent.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 109
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/rightContent.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 109
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(): Failed opening 'includes/rightContent.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 109
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 122
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 122
+[08-Mar-2016 05:00:41 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 122
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/head.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 8
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/head.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 8
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(): Failed opening 'includes/head.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 8
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/top.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 41
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/top.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 41
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(): Failed opening 'includes/top.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 41
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/menu.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 42
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/menu.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 42
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(): Failed opening 'includes/menu.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 42
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/promotions.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 48
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/promotions.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 48
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(): Failed opening 'includes/promotions.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 48
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/rightContent.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 109
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/rightContent.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 109
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(): Failed opening 'includes/rightContent.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 109
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 122
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home3/tavakari/public_html/includes/index.php on line 122
+[13-Oct-2016 07:59:23 America/Chicago] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home3/tavakari/public_html/includes/index.php on line 122

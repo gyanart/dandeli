@@ -1,0 +1,3094 @@
+/**
+
+* @version	1.0
+
+* @media	screen
+
+*
+
+* @info		Generic styles (from AFRO)
+
+*			NB: This is a cut down version for backwards compatibility - redundant styles removed
+
+*
+
+* @contents
+
+* =1: General styles
+
+*
+
+* =2: Helpers
+
+*
+
+* =3: Capsules
+
+*
+
+* =4: Financial Services
+
+*
+
+* =5: Services
+
+*
+
+* =6: My Account
+
+*
+
+* =7: Static Special Offers
+
+*
+
+* =8: Please wait container
+
+*
+
+* =9: WCN generic.css
+
+*
+
+* =10: Reserve & Collect
+
+*
+
+* =11: Sign In or Register
+
+*
+
+* =12: Shopping List Store Locator Popup
+
+*
+
+* =13: Store Voucher
+
+*
+
+* =14: Register
+
+*
+
+* =15: Tooltips
+
+*
+
+* =16: Password Strength indicators
+
+*/
+
+
+
+
+
+/**
+
+* =1: General styles
+
+*
+
+* @info Tags and classes
+
+*/
+
+
+
+body, form, h1, h2, h3, h4, h5, h6, p, ul, ol, dd, fieldset {
+
+	margin: 0px;
+
+	position
+
+}
+
+.access {
+
+	position: absolute;
+
+	top: -1000em;
+
+	left: -1000em;
+
+}
+
+.space {
+
+	margin-bottom: 10px;
+
+}
+
+img {
+
+	border: 0;
+
+	font-size: 0.6em;
+
+}
+
+fieldset {
+
+	border:0; 
+
+	padding: 0; 
+
+	float: left;
+
+}
+
+address {
+
+	font-style: normal;
+
+	line-height: 1.3em;
+
+}
+
+ul, ol, dd {
+
+	padding: 0px;
+
+	list-style-type: none;
+
+}
+
+li {
+
+	display: inline;
+
+}
+
+ul.disc{
+
+	list-style-image: none;
+
+	list-style-type: disc;
+
+	margin-left: 8px;
+
+	padding-left: 8px;
+
+}
+
+ul.disc li{
+
+	display: list-item;
+
+	margin-top: 8px;
+
+}
+
+ul.gift{
+
+	list-style-image: none;
+
+	list-style-type: disc;
+
+	margin-left: 15px;
+
+	padding-left: 8px;
+
+}
+
+ul.gift li{
+
+	display: list-item;
+
+	margin-top: 8px;
+
+}
+
+ol.help{
+
+	list-style-image: none;
+
+	list-style-type: decimal;
+
+	margin-left: 8px;
+
+	padding-left: 8px;
+
+}
+
+ol.help li{
+
+	display: list-item;
+
+	margin-top: 8px;
+
+}
+
+.orderedlist {
+
+	list-style-type:decimal;
+
+	margin-left:30px;
+
+	margin-top:10px;
+
+	margin-bottom:10px;
+
+}
+
+.listitem {
+
+	display:list-item;
+
+	padding:2px 0 2px 0;
+
+}
+
+h1 {
+
+	margin-bottom: 10px;
+
+	line-height:normal
+
+}
+
+body#popup h1 {
+
+	margin-top: 10px;
+
+	line-height: 1.1em;
+
+}
+
+
+
+
+
+/**
+
+* =2: Helpers
+
+*
+
+* @info Helper classes
+
+*/
+
+.heading {
+
+	clear: both;
+
+	padding: 5px 0px 5px 10px; 	
+
+}
+
+.dblDivider10 {
+
+	height: 21px;
+
+	width: 100%; 
+
+	float: left;	
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/hdotsa6.gif;diy6e3ee20b77047364) center repeat-x;
+
+}
+
+.blankDivider {
+
+	margin-bottom: 15px;
+
+}
+
+.right {
+
+	float: right;
+
+}
+
+.left {
+
+	float: left;
+
+}
+
+.clear {
+
+	clear: both;
+
+	height: 0;
+
+	overflow: hidden;
+
+}
+
+
+
+/**
+
+* =3: Capsules
+
+*
+
+* @info Generic capsule styles: 
+
+*		caspuleWrapper, basicWrapper
+
+*		capsuleWrapper creates orange curved banners				
+
+*		basicWraper creates straight grey bar
+
+*		Overwrite styles using ID
+
+*/
+
+.capsuleWrapper {
+
+	width: 592px;
+
+	padding-bottom: 7px;
+
+	position: relative;
+
+	background:  url(http://www.diy.com/diy/jsp/bq/nav/images/bottomgrad592.gif;diyd80f4f53e4aa388f) bottom left no-repeat;
+
+}
+
+.capsuleWrapper h2 {
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/barf60592_repeat.gif;diybd039288a112f176) top left repeat-y;
+
+}
+
+.capsuleWrapper h2 span.h2Top {
+
+	height: 4px;
+
+	overflow: hidden;
+
+	display: block;	
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/barf60592_top.gif;diy05daa6ed00569cd2) top left no-repeat;
+
+}
+
+.capsuleWrapper h2 span.h2Title {
+
+	padding-left: 10px;
+
+	display: block;	
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/barf60592_mid.gif;diy514077bc4f226b8f) top left no-repeat;
+
+}
+
+.capsuleWrapper h2 span.h2Bottom {
+
+	height: 4px;
+
+	overflow: hidden;
+
+	display: block;	
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/barf60592_btm.gif;diye43368accb14c93c) top left no-repeat;
+
+}
+
+.capsuleWrapper .icon {
+
+	position: absolute;
+
+	display: block;
+
+	left: 0px;
+
+	top: 0px;
+
+	width: 50px;
+
+	height: 80px;
+
+}
+
+.capsuleBlock {
+
+	border: 1px solid #d6d6d6;
+
+	border-bottom: 0;
+
+	width: 569px;
+
+	padding-left: 11px;
+
+	padding-right: 10px;
+
+	float: left;
+
+}
+
+.basicWrapper {
+
+	width: 750px;
+
+	position: relative;
+
+	float:left;
+
+}
+
+.basicWrapper h2 {
+
+	background-color: #eaeaea;
+
+}
+
+.basicWrapper h2 span.h2Title {
+
+	display: block;	
+
+	padding-left: 10px;
+
+	padding-top: 4px;
+
+	padding-bottom: 4px;
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/barbg.gif;diy6e4986844d979d50) top left repeat-x;
+
+}
+
+.basicBlock {
+
+	float: left;
+
+	padding-top: 10px;
+
+	padding-bottom: 10px;
+
+}
+
+.capsuleBlock ul, .basicBlock ul {
+
+	width: 569px;
+
+	float: left;
+
+	padding-top: 15px;
+
+	padding-bottom: 15px;
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/hdotsa6.gif;diy6e3ee20b77047364) top left repeat-x;
+
+}
+
+.capsuleBlock ul.first, .basicBlock ul {
+
+	background: none;
+
+}
+
+.capsuleBlock li, .basicBlock li {
+
+	margin: 0;
+
+	padding: 0 9px 0 10px;
+
+	width: 128px;
+
+	float: left;
+
+	text-align: center;
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/vdotsd61px.gif;diyec1e98ab2a433b44) top left repeat-y;
+
+}
+
+.capsuleBlock li.first, .basicBlock li.first {
+
+	padding-left: 0;
+
+	background: none;
+
+}
+
+.capsuleBlock li.last, .basicBlock li.last {
+
+	padding-right: 0;
+
+}
+
+.capsuleBlock p, .basicBlock p { 
+
+	text-align: left; 	
+
+}
+
+
+
+
+
+/**
+
+* =4: Financial Services
+
+*
+
+* @info Financial Services section
+
+*/
+
+#financialServices, #creditCentre, #homeplan, #youcandoit, #applianceCare, #appliancecareTc {
+
+	width:592px;
+
+}
+
+#financialServices .header, #creditCentre .header, #homeplan .header, #youcandoit .header, #applianceCare .header, #appliancecareTc .header {
+
+	width:568px;
+
+}
+
+#creditCentre .header, #homeplan .header, #youcandoit .header, #appliancecareTc .header  {
+
+	background:url(http://www.diy.com/diy/jsp/miscellaneous/tailored_landing/financial_services/images/top_bg.jpg;diybd7f341609acfe32) 0 0 repeat-x;
+
+	padding:10px 12px;
+
+}
+
+#homeplan .header, #applianceCare .header, #appliancecareTc .header {
+
+	height:95px;
+
+}
+
+#applianceCare .header {
+
+	background:url(http://www.diy.com/diy/jsp/miscellaneous/tailored_landing/financial_services/images/kitchen_bg.jpg;diyffe9c531b1c25023) 0 0 repeat-x;
+
+	padding:30px 12px 10px 12px;
+
+}
+
+#financialServices .header img, #creditCentre .header img, #homeplan .header img, #youcandoit .header img, #appliancecareTc .header img {
+
+	float:right;
+
+	margin:0;
+
+}
+
+#financialServices .gradwrap, #creditCentre .gradwrap, #homeplan .gradwrap, .gradwrap {
+
+	width:592px;
+
+}
+
+#financialServices .grad_header, #creditCentre .grad_header {
+
+	width:580px;
+
+	height:23px;
+
+	font:bold 14px verdana;
+
+	color:#000;
+
+	background:url(http://www.diy.com/diy/jsp/miscellaneous/tailored_landing/financial_services/images/graybg.gif;diyd7de1be030df4003) 0 0 no-repeat;
+
+	padding:4px 0 0 12px;
+
+	margin:12px 0 0 0;
+
+}
+
+#financialServices .gradbox, #creditCentre .gradbox, .gradbox_one {
+
+	width:590px;
+
+	border:1px solid #e4e4e4;
+
+	border-bottom:1px solid #fcd2bc;
+
+}
+
+#creditCentre .gradbox {
+
+	min-height:132px;
+
+	background:#FCD2BC url(http://www.diy.com/diy/jsp/miscellaneous/tailored_landing/financial_services/images/grad_bg.jpg;diy5932ff9d1f467b1e) 0 0 repeat-x;
+
+}
+
+#creditCentre .gradbox_one {
+
+	min-height:95px;
+
+	background:#FCD2BC url(http://www.diy.com/diy/jsp/miscellaneous/tailored_landing/financial_services/images/grad_bg_one.jpg;diy82131d93910bf409) 0 0 repeat-x;
+
+}
+
+#financialServices .gradbox {
+
+ 	background:#FFF url(http://www.diy.com/diy/jsp/miscellaneous/tailored_landing/financial_services/images/box_bg.jpg;diy80acdb21db08c797) 100% 100% repeat-x scroll;
+
+}
+
+ul#financialServices .gradbox, ul#creditCentre .gradbox {
+
+	list-style-image:none;
+
+	list-style-type:disc;
+
+}
+
+#financialServices .cards {
+
+	float:left;
+
+	margin:20px 20px 0 26px;
+
+}
+
+#financialServices .wmachine, #financialServices .flame {
+
+	float:left;
+
+	margin:20px 20px 0 26px;
+
+}
+
+#financialServices .sswitch {
+
+	float:left;
+
+	margin:20px 20px 0 26px;
+
+}
+
+#financialServices .arrow, #creditCentre .arrow {
+
+	margin:0 20px 0 0;
+
+}
+
+#creditCentre .doit, #creditCentre .homeplan {
+
+	float:left;
+
+	margin:28px 20px 15px 26px;
+
+}
+
+#creditCentre .mouse {
+
+	float:left;
+
+	margin:37px 40px 35px 0;
+
+}
+
+#creditCentre .doitone {
+
+	float:left;
+
+	margin:15px 14px 0 29px;
+
+}
+
+#homeplan .hcard, #youcandoit .ycard {
+
+	margin:0 36px 0 0;
+
+}
+
+#homeplan .receipt {
+
+	float:right;
+
+	margin:-10px 0 0 0;
+
+}
+
+#homeplan table.dashed, #youcandoit table.dashed, #applianceCare table.dashed {
+
+  border-top:1px dashed #aeaeae;
+
+  border-left:1px dashed #aeaeae;
+
+} 
+
+#homeplan td.dashed, #youcandoit td.dashed, #applianceCare td.dashed, #applianceCare th.dashed {8
+
+  border-right:1px dashed #aeaeae;
+
+  padding:6px 0 6px 12px;
+
+} 
+
+#homeplan td.dashed, #youcandoit td.dashed {
+
+  border-bottom:1px dashed #aeaeae;
+
+} 
+
+#homeplan td.white, #youcandoit td.white, #applianceCare td.white,  #applianceCare th.white {
+
+  border-right:1px dashed #aeaeae;
+
+  padding-left:12px;
+
+  padding-top:6px;
+
+  padding-bottom:6px;
+
+}
+
+#homeplan .content ul , #youcandoit .content ul, #applianceCare .content ul, #appliancecareTc .content ul {
+
+  list-style-image:url(http://www.diy.com/diy/jsp/miscellaneous/tailored_landing/financial_services/images/or_bull.gif;diyef594afd2daf6503);
+
+  padding:0 0 0 12px;
+
+}
+
+#homeplan .content li, #youcandoit .content li, #applianceCare .content li, #appliancecareTc .content li {
+
+  display:list-item;
+
+  margin-bottom:6px;
+
+}
+
+#homeplan .content, #youcandoit .content, #applianceCare .content, #appliancecareTc .content {
+
+  width:570px;
+
+  padding:0 10px 0 12px;
+
+}
+
+#homeplan .content p, #youcandoit .content p, #applianceCare .content p {
+
+  margin:10px 0 10px 0;
+
+}
+
+#applianceCare caption {
+
+	padding:10px 10px 10px 12px;
+
+	text-align:left;
+
+}
+
+#homeplan .box_header, #youcandoit .box_header, #applianceCare .box_header, .box_header {
+
+  width:580px;
+
+  height:23px;
+
+  font:bold 14px verdana;
+
+  color:#000;
+
+  background-color:#e9e9e9;
+
+  padding:4px 0 0 12px;
+
+  margin:12px 0 0 0;
+
+}
+
+#youcandoit .mouse {
+
+	float:right;
+
+	margin:0 -10px 0 8px;
+
+}
+
+
+
+/**
+
+* =5: Services
+
+*
+
+* @info Services section
+
+*/
+
+#services {
+
+	width:592px;
+
+}
+
+#services h2 {
+
+	clear: left;
+
+}
+
+ul#mainList1, ul#mainList2 {
+
+	padding:0 0 0 10px;
+
+	margin:0;
+
+	width:582px !important;
+
+	width /**/:592px;
+
+	border:0;
+
+}
+
+ul#mainList1 li, #mainList1 h3 {
+
+	width:181px !important;
+
+	width /**/:180px;
+
+}
+
+ul#mainList2 li {
+
+	width:181px !important;
+
+	width /**/:194px;
+
+}
+
+ul#servicesList, ul#servicesList li {
+
+	width:181px !important;
+
+	width /**/:165px;
+
+}
+
+ul#mainList2 p, ul#servicesList, ul#servicesList li, #mainList1 h3 {
+
+	text-align:left;
+
+}
+
+ul#mainList2 p.link {
+
+	padding:6px 0;
+
+}
+
+ul#servicesList, #mainList h3 {
+
+	margin:0;
+
+	padding:0;
+
+}
+
+ul#servicesList li {
+
+	display:list-item;
+
+	padding:3px 0;
+
+	margin:0;
+
+}
+
+ul#servicesList, ul#servicesList li {
+
+	float:none;
+
+	background:none;
+
+}
+
+#doors_search h1 {
+
+	width:592px; 
+
+	height:26px;
+
+	background-color:#FF6600;
+
+}
+
+.doorsWrapper, .doorsWrapperFirst {
+
+	float:left;
+
+	padding:0 14px 15px 14px;
+
+}
+
+.doorsWrapper {
+
+	background:url(http://www.diy.com/diy/jsp/bq/nav/images/vdots.gif;diy562a4819bf55ab2a) 0 0 repeat-y;
+
+}
+
+
+
+/**
+
+* =6: My Account
+
+*
+
+* @info Old styles needed for My Account
+
+*/
+
+.personaltabon { 
+
+	background-color: #4E3D85; 
+
+	border:1px solid #A9A9A9;
+
+	padding:4px 2px 4px 2px;
+
+}
+
+.personaltaboff { 
+
+	background-color: #D5D1E2; 
+
+	border:1px solid #A9A9A9; 
+
+	padding:4px 2px 4px 2px;
+
+}
+
+
+
+/**
+
+* =7: Static Special Offers
+
+*
+
+* @info Static Special Offers content IN STORE ONLY
+
+*/
+
+.soStoreLeft, .soStoreImg, .soStoreText {
+
+	float:left;
+
+}
+
+.soStoreLeft {
+
+	width:295px;
+
+	margin:10px 0;
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/vdotsa6.gif;diy0e72e4144f6c35c5) top right repeat-y;
+
+}
+
+.soStoreImg {
+
+	padding:0 10px;
+
+}
+
+.soStoreClear {
+
+	clear:both;
+
+}
+
+.soStoreRight {
+
+	width:295px;
+
+	margin:10px 0;
+
+	float:right;
+
+}
+
+#doorsTextWrapper {
+
+	width: 572px !important; 
+
+	width /**/: 592px;
+
+	background-color: #f3f1f2;
+
+	padding: 10px 10px 10px 10px; 
+
+	margin-bottom: 20px; 
+
+}
+
+.doorsTextBlock {
+
+	margin-top: 5px; 
+
+	padding-bottom: 4px;
+
+	line-height: 14px;	
+
+}
+
+.dotsWrapper {
+
+	padding:0 0 20px 0;
+
+}
+
+
+
+/**
+
+* =8: Please wait container
+
+*
+
+* @info Within checkout
+
+*/
+
+#waitContainer {
+
+	width: 592px;
+
+	padding: 100px 0px; 
+
+	display: none;
+
+	font-size: 0.95em;
+
+	font-weight: bold;
+
+	color: #000;
+
+}
+
+
+
+/**
+
+* =9: WCN generic.css
+
+*
+
+* @info Air Force pages
+
+*/
+
+.merchLinks {
+
+	width: 592px; 
+
+	background-color: #f3f1f2; 
+
+	padding-bottom: 15px;
+
+	margin-bottom: 10px;
+
+	float: left;
+
+}	
+
+.merchLinks .left, .merchLinks .right {
+
+	float: left;
+
+	width: 241px !important;
+
+	width /**/: 274px;
+
+	padding-left: 33px;
+
+}
+
+.merchLinks .right {
+
+	padding-left: 37px;
+
+}
+
+#helpTitle {
+
+	padding: 17px 0px 22px 65px;
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/apron.gif;diyb29c9917f96686cb) 4px 4px no-repeat;
+
+}
+
+ul.arrow li {
+
+	display: block;
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/arrowbullet.gif;diye97c8e9a9b9b9055) 5px 6px no-repeat;
+
+}
+
+.merchLinks ul.arrow li div {
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/hdotsa6.gif;diy6e3ee20b77047364) left bottom repeat-x;
+
+}
+
+.merchLinks ul li div {
+
+	padding-left: 18px;
+
+}
+
+.merchLinks ul li a {
+
+	display: block;
+
+	width: 223px;
+
+	padding: 6px 0px;
+
+}
+
+#airForcePDF .basicBlock ul, #airForcePDF .basicBlock li {
+
+	width:260px;
+
+}
+
+#airForceVideo .basicBlock ul {
+
+	width:170px;
+
+}
+
+#air_force .basicBlock ul {
+
+	margin:0 0 10px 10px;
+
+	padding:0;
+
+}
+
+#air_force .basicBlock li {
+
+	text-align:left;
+
+	padding:0 0 6px 10px;
+
+	margin:0;
+
+	background: url(http://www.diy.com/diy/jsp/bq/nav/images/morecatsbullet.gif;diya990849aa7e1d446) top left no-repeat;
+
+}
+
+
+
+/**
+
+* =10: Reserve & Collect - style here for cancel reservation pages only - see checkout.css for all other styles
+
+*/
+
+.cancelReserveCollect hr {
+
+	clear:both;
+
+	height:1px;
+
+	border:0;
+
+	border-top:1px solid #e8e5e4;
+
+}
+
+.cancelReserveCollect .cancel {
+
+	text-align:right;
+
+	margin:15px;
+
+}
+
+.cancelReserveCollect .cancel input {
+
+	vertical-align:middle;
+
+	padding-left:10px;
+
+}
+
+.cancelReserveCollect .reservedItems { 
+
+	clear:both;
+
+	border:6px solid #e8e5e4;
+
+	padding:6px 16px 16px 16px;
+
+}
+
+.cancelReserveCollect .error {
+
+	color:#ff0000;
+
+}
+
+
+
+/* Fix for 10px whitespace between td borders */
+
+.cancelReserveCollect .horizontalBorderAnchor {
+
+	position:relative;
+
+}
+
+.cancelReserveCollect .horizontalBorder {
+
+	position:absolute;
+
+	top:-21px;
+
+	left:0;
+
+	height:21px;
+
+	width:716px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/shopping-list/horizontal-border.png;diy1c096a96c10739a0) top left repeat-x;
+
+}
+
+.cancelReserveCollect .collectionDetails strong  {
+
+	font-weight:bold;
+
+	font-size:1.25em;
+
+}
+
+/**
+
+* =x: Table styles
+
+*/
+
+.cancelReserveCollect table th, .cancelReserveCollect table td {
+
+	padding: 6px;
+
+	vertical-align: top;
+
+}
+
+.cancelReserveCollect table th {
+
+	font-weight: bold;
+
+	text-align: center !important;
+
+	border-bottom: 1px solid #e8e5e4;
+
+}
+
+.cancelReserveCollect  thead th {
+
+	padding-bottom:10px;
+
+}
+
+.cancelReserveCollect table tbody td {
+
+	padding:10px 5px 0 5px;
+
+	border-bottom: 1px solid #e8e5e4;
+
+}
+
+.cancelReserveCollect table tbody .quantity, .cancelReserveCollect table tbody .price, .cancelReserveCollect table tfoot .price {
+
+	border-left: 1px solid #e8e5e4;
+
+}
+
+.cancelReserveCollect table .items {
+
+	text-align: left !important;
+
+	padding-left:0;
+
+	width:530px;
+
+}
+
+.cancelReserveCollect table .priceTotal {
+
+	padding-right:0;
+
+}
+
+.cancelReserveCollect table .quantity {
+
+	text-align: center;
+
+}
+
+.cancelReserveCollect table .price {
+
+	text-align: right !important;
+
+}
+
+.cancelReserveCollect table .price {
+
+	width:65px;
+
+}
+
+.cancelReserveCollect table .quantity {
+
+	width:55px;
+
+}
+
+.cancelReserveCollect table td p {
+
+	padding: 0;
+
+	font-weight: bold;
+
+}
+
+.cancelReserveCollect table tfoot td {
+
+	padding: 5px;
+
+	text-align: right;
+
+}
+
+table tfoot .totalPrice {
+
+	font-weight: bold;
+
+	font-size:1.25em;
+
+	padding-top:10px !important;
+
+	padding-bottom:0;
+
+	padding-left:0;
+
+	border-bottom:none;
+
+	text-align:right !important;
+
+}
+
+table tfoot .totalPrice .normal {
+
+	font-weight:normal;
+
+	font-size:.85em;
+
+}
+
+table tfoot .totalPrice .horizontalBorderAnchor {
+
+	text-align:left !important;
+
+}
+
+table tfoot .totalPrice .totalRight {
+
+	float: right;
+
+}
+
+.cancelReserveCollect table .items .ean {
+
+	font-size:.9em;
+
+	margin:2px 0 0 0;
+
+	font-weight:normal;
+
+}
+
+.cancelReserveCollect table .items p a {
+
+	font-weight:normal;
+
+	text-decoration:underline;
+
+}
+
+
+
+/**
+
+* =11: Sign In or Register
+
+*/
+
+	/* repermissioning banner - switch */
+
+#repertopbannersigntext {
+
+background:url(http://www.diy.com/diy/jsp/bq/images/sign-in/top_part_image.png;diy8212c420959cd691) no-repeat 100% 100%;
+
+height:27px;
+
+}
+
+#repermissionregistered {
+
+background-image:url(http://www.diy.com/diy/jsp/bq/images/sign-in/Register_banners_registered.png;diy6b32edbecc36114b);
+
+background-repeat:no-repeat;
+
+width:937px;
+
+height:116px;
+
+margin-bottom:20px;
+
+}
+
+	/* 10% discount card promotion - switch - april 2011 */
+
+.discountcard {
+	position:relative;
+	height:340px;
+}
+.discountcard .discountheader {
+	background:url(http://www.diy.com/diy/jsp/bq/images/sign-in/discount_banner.jpg;diy3a5622b580992684) no-repeat 0 0;
+	width:934px;
+	height:157px;
+	position:absolute;
+	top:-20px;
+}
+.discountcard .discountheader h2 {
+	background:url(http://www.diy.com/diy/jsp/bq/images/sign-in/discount_header.gif;diy34b934d974daec0a) no-repeat 0 0;
+	width:738px;
+	height:88px;
+	text-indent:-6000px;
+	margin:50px 0 0 20px;
+}
+.discountcard .discountcopy {
+	margin:30px 0 0 20px;
+}
+.discountcardtsandcs {
+	clear:left;
+	border-top:solid 3px #ff6600;
+	margin-top:25px;
+}
+.discountcardtsandcs .disclaimer {
+	margin-top:10px;
+	padding:0;
+}
+.discountcardtsandcs .disclaimer strong {
+	font-size:12px;
+}
+
+#KitchenPlannerBannersigntext img {
+
+	position:relative;
+
+	height:340px;
+
+}
+
+.discountcard .discountheader {
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/sign-in/discount_banner.jpg;diy3a5622b580992684) no-repeat 0 0;
+
+	width:934px;
+
+	height:157px;
+
+	position:absolute;
+
+	top:-20px;
+
+}
+
+.discountcard .discountheader h2 {
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/sign-in/discount_header.gif;diy34b934d974daec0a) no-repeat 0 0;
+
+	width:738px;
+
+	height:88px;
+
+	text-indent:-6000px;
+
+	margin:50px 0 0 20px;
+
+}
+
+.discountcard .discountcopy {
+
+	margin:30px 0 0 20px;
+
+}
+
+.discountcardtsandcs {
+
+	clear:left;
+
+	border-top:solid 3px #ff6600;
+
+	margin-top:25px;
+
+}
+
+.discountcardtsandcs .disclaimer {
+
+	margin-top:10px;
+
+	padding:0;
+
+}
+
+.discountcardtsandcs .disclaimer strong {
+
+	font-size:12px;
+
+}
+
+
+
+#KitchenPlannerBannersigntext img {
+
+height:27px;
+
+vertical-align:bottom;
+
+}
+
+#KitchenPlannerRegistered {
+
+background-image:url(http://www.diy.com/diy/jsp/bq/images/sign-in/Kitchen_Register_banners_registered.png;diya1c657d96346bc22);
+
+background-repeat:no-repeat;
+
+width:934px;
+
+height:116px;
+
+margin-bottom:20px;
+
+}
+
+#KitchenPlannerRegistered p {
+
+position:relative;
+
+left:220px;
+
+top:11px;
+
+width:225px;
+
+margin-bottom:10px;
+
+}
+
+
+
+#KitchenPlannerWarning {
+
+	background-image:url(http://www.diy.com/diy/jsp/bq/images/sign-in/signIn_warningBanner.jpg;diy1c4684f5ba184777);
+
+	background-repeat:no-repeat;
+
+	width:934px;
+
+	height:120px;
+
+	margin-bottom:20px;
+
+	clear:both;
+
+}
+
+#KitchenPlannerWarning .blackText
+
+{
+
+	width:934px;
+
+	height:60px;
+
+	margin-bottom:10px;
+
+	margin-left:135px;
+
+	padding-top:18px;
+
+	font-size:14px;
+
+	color:#333333;
+
+	line-height:18px;
+
+}
+
+
+
+#KitchenPlannerWarning .redText
+
+{
+
+	padding:0;
+
+	margin:0;
+
+	width:934px;
+
+	height:60px;
+
+	font-size:12px;
+
+	color:#ee2931;
+
+}
+
+
+
+#KitchenPlannerWarning .smallText
+
+{
+
+	position:relative;
+
+	top:-15px;
+
+	left:0;
+
+	width:924px;
+
+	height:35px;
+
+	font-size:10px;
+
+	color:#333333;
+
+	line-height:12px;
+
+	padding-left:10px;
+
+}
+
+
+
+#repermissionregistered ul
+
+{
+
+padding-top:12px;
+
+margin:0 auto;
+
+width:500px;
+
+}
+
+#repermissionregistered ul li
+
+{
+
+margin-right:10px;
+
+padding-left:25px;
+
+padding-top:3px;
+
+background:url(http://www.diy.com/diy/jsp/bq/images/sign-in/orange_arrow.jpg;diydac2af6ab5019e4b) no-repeat;
+
+float:left;
+
+width:200px;
+
+}
+
+.required {
+
+	color:#ff0000;
+
+}
+
+.rightTitleText {
+
+	float:right;
+
+	padding:14px 15px 2px 0;
+
+}
+
+.signInBox {
+
+	clear:both;
+
+	float:left;
+
+	width:370px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/sign-in/sign-in-border-bottom.png;diy5ccd9e6b10475672) bottom left no-repeat;
+
+}
+
+.registerBox {
+
+	float:right;
+
+	width:549px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/sign-in/register-border-bottom.png;diy3ddfdfd52bc3d9d9) bottom left no-repeat;
+
+}
+
+.withoutBox {
+
+	clear:both;
+
+	width:370px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/sign-in/sign-in-border-bottom.png;diy5ccd9e6b10475672) bottom left no-repeat;
+
+}
+
+.signInBox, .registerBox, .withoutBox {
+
+	margin:0 0 15px 0;
+
+	padding-bottom:19px;
+
+	border-top:3px solid #ff6600;
+
+}
+
+.signInBox .signInBoxContent,
+
+.registerBox .registerBoxContent,
+
+.withoutBox .withoutBoxContent {
+
+	padding:10px 15px 0 15px;
+
+	border-right:1px solid #eae6e3;
+
+	border-left:1px solid #eae6e3;
+
+}
+
+.signInBox .signInBoxContent p.end {
+
+	padding:10px 0;
+
+}
+
+.registerBoxContent  {
+
+	width:517px;
+
+	background:url(/diy/jsp/bq/images/sign-in/register-image.jpg) bottom right no-repeat;
+
+}
+
+.registerBoxContent ul {
+
+	padding:6px 0 6px 10px;
+
+}
+
+.registerBoxContent ul li {
+
+	display:list-item;
+
+	padding:2px 0 0 10px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/navigation/icons/bullet.png;diydedee30933ecce45) left 8px no-repeat;
+
+}
+
+.registerContent {
+
+	width:270px;
+
+}
+
+.signInBoxContent ul li {
+
+	margin:0;
+
+	padding:0;
+
+}
+
+.signInBoxContent ul {
+
+	margin:5px 0 0 0;
+
+}
+
+.signInBoxContent ul label {
+
+	float:left;
+
+	padding-top:3px;
+
+	margin-bottom:13px;
+
+}
+
+.signInBoxContent ul input {
+
+	margin-bottom:10px;
+
+	float:right;
+
+	width:234px;
+
+	height:17px;
+
+	border-top:1px solid #ded6d4;
+
+	border-left:1px solid #ded6d4;
+
+	border-right:1px solid #f1f0ee;
+
+	border-bottom:1px solid #f1f0ee;
+
+	padding:3px 2px 0 2px;
+
+	font:1em/1em Arial, Helvetica, sans-serif;
+
+	color:#494c4e;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/forms/input-bkg.png;diy10ea319e9414aca6) no-repeat;
+
+}
+
+.forgottenPassword {
+
+	padding:0 0 15px 98px;
+
+}
+
+.withoutContent {
+
+	float:left;
+
+	padding-top:7px;
+
+	width:235px;
+
+}
+
+.withoutButton {
+
+	float:right;
+
+	margin-top:20px;
+
+}
+
+.signInBoxContent ul li.logout {
+
+	padding:7px 0 10px 0;
+
+	display:block;
+
+}
+
+
+
+/* Error style */
+
+.errorSummary {
+
+	clear: both;
+
+	float: left;
+
+	padding:15px;
+
+	width: 904px;
+
+	border-top: 3px solid #ff0000;
+
+	border-right: 1px solid #e8e5e4;
+
+	border-bottom: 1px solid #e8e5e4;
+
+	border-left: 1px solid #e8e5e4;
+
+	margin-bottom:15px;
+
+}
+
+.errorSummary h2 {
+
+	padding-left:0 !important;
+
+	font-size:1.4em;
+
+	color:#f00;
+
+	font-weight:bold;
+
+}
+
+.errorSummary a { text-decoration: underline; }
+
+.errorSummary p {
+
+	clear:both;
+
+	padding:10px 0 0 0 !important;
+
+	margin:0 !important;
+
+}
+
+.errorSummary ul { padding:6px 0 0 10px; }
+
+.errorSummary ul li {
+
+	display:list-item;
+
+	padding:2px 0 2px 10px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/navigation/icons/bullet.png;diydedee30933ecce45) left 9px no-repeat;
+
+}
+
+.errorInline {
+
+	padding:0 0 3px 98px;
+
+	color:#f00;
+
+}
+
+
+
+/**
+
+* =12: Shopping List Store Locator Popup
+
+*/
+
+#shoppingListStoreLocator a {
+
+	text-decoration:underline;
+
+}
+
+#shoppingListStoreLocator h2 {
+
+	margin-bottom:15px;
+
+}
+
+#shoppingListStoreLocator p {
+
+	clear:both;
+
+	margin:15px 0 0 0;
+
+	padding:0;
+
+}
+
+#shoppingListStoreLocator input {
+
+	float:left;
+
+	margin:5px 0 0 0;
+
+}
+
+#shoppingListStoreLocator label {
+
+	float:left;
+
+	margin:10px 10px 0 0;
+
+}
+
+#shoppingListStoreLocator .text {
+
+	width:234px;
+
+	height:17px;
+
+	border-top:1px solid #ded6d4;
+
+	border-left:1px solid #ded6d4;
+
+	border-right:1px solid #f1f0ee;
+
+	border-bottom:1px solid #f1f0ee;
+
+	padding:3px 2px 0 2px;
+
+	font:1em/1em Arial, Helvetica, sans-serif;
+
+	color:#494c4e;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/forms/input-bkg.png;diy10ea319e9414aca6) no-repeat;
+
+}
+
+#shoppingListStoreLocator .button {
+
+	margin:4px 0 0 10px;
+
+}
+
+#shoppingListStoreLocator hr {
+
+	clear:both;
+
+	height:1px;
+
+	border:none;
+
+	border-top:1px solid #e8e5e4;
+
+}
+
+#shoppingListStoreLocator .top {
+
+	border-top:none;
+
+	border-bottom:1px solid #e8e5e4;
+
+	padding-top:15px;
+
+}
+
+#shoppingListStoreLocator .errorInline {
+
+	padding:0 0 3px 108px;
+
+	color:#f00;
+
+}
+
+#shoppingListStoreLocator ul {
+
+	padding:0 0 5px 10px;
+
+}
+
+#shoppingListStoreLocator ul li {
+
+	display:list-item;
+
+	padding:8px 0 0 10px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/navigation/icons/bullet.png;diydedee30933ecce45) left 14px no-repeat;
+
+}
+
+#shoppingListStoreLocator .pagingTools {
+
+	padding:0 0 0 7px;
+
+}
+
+#shoppingListStoreLocator .nearest {
+
+	clear:none !important;
+
+	float:left;
+
+}
+
+#shoppingListStoreLocator .nearest span {
+
+	text-transform:capitalize;
+
+}
+
+#shoppingListStoreLocator .nextButton {
+
+	padding-right:10px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/navigation/icons/link-arrow.png;diy8e434e5d4e3436c4) right no-repeat;
+
+}
+
+#shoppingListStoreLocator .prevButton {
+
+	padding-left:10px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/navigation/icons/link-arrow-reverse.png;diya038a96b32a79696) left no-repeat;
+
+}
+
+#shoppingListStoreLocator .right {
+
+	clear:none;
+
+	float:right;
+
+}
+
+ul#storeList {
+
+	padding:0 0 5px 0;
+
+}
+
+ul#storeList li {
+
+	clear:both;
+
+	background:none;
+
+	border-top:1px solid #e8e5e4;
+
+	padding:0;
+
+	height:49px;
+
+}
+
+ul#storeList p {
+
+	clear:none;
+
+	float:left;
+
+	line-height:1.6em;
+
+	padding:15px 0 0 0;
+
+	margin:0;
+
+}
+
+ul#storeList .select {
+
+	float:right;
+
+	width:57px;
+
+	height:24px;
+
+	margin:13px 0 0 0;
+
+}
+
+
+
+/**
+
+* =13: Store Voucher
+
+*/
+
+#contentWrapper #contentHeaderWide h1 {
+
+	background-color:#f60 !important;
+
+}
+
+#contentWrapper #voucherWrapper h3 {
+
+	font-size:1.2em;
+
+	font-weight:bold;
+
+	margin-bottom:10px;
+
+	padding-bottom:0;
+
+}
+
+#voucherWrapper h4 {
+
+	font-size:1em;
+
+}
+
+#voucherWrapper .left {
+
+	width:451px;
+
+	padding-right:15px;
+
+	border-right:2px solid #f1efee;	
+
+	min-height:219px;
+
+	margin-top: 15px;
+
+	height:100%;
+
+	padding-left:15px;
+
+}
+
+#voucherWrapper .right {
+
+	margin-top: 15px;
+
+	padding-left:15px;
+
+	height:100%;
+
+}
+
+#voucherWrapper .right,
+
+#voucherWrapper .expiredLeft {
+
+	width:436px;
+
+}
+
+#voucherWrapper .leftPrint {
+
+	float:left;
+
+	width:453px;
+
+	padding-right:15px;
+
+}
+
+#voucherWrapper .rightPrint {
+
+	float:right;
+
+	width:449px;
+
+	padding-left:15px;
+
+	border-left:2px solid #f1efee;	
+
+	min-height:127px;
+
+}
+
+#voucherWrapper .rightPrint .promoImg {
+
+	margin-bottom:15px;
+
+}
+#voucherWrapper .leftPrint b {
+	font-size:30px;
+	color:#FF6600;
+}
+#voucherWrapper .leftPrint .printbtn {
+	margin:10px 0 10px 0;
+}
+#voucherWrapper .leftPrint a {
+	outline:none;
+}
+
+#voucherWrapper .rightPrint .promoImgTwo {
+
+	margin-bottom:15px;
+
+	float:left;
+
+	margin-right:15px;
+
+}
+
+#voucherWrapper .rightPrint .promoImgThree {
+
+	margin-bottom:15px;
+
+	float:left;
+
+}
+
+#voucherWrapper .leftPrint b {
+
+	font-size:30px;
+
+	color:#FF6600;
+
+}
+
+#voucherWrapper .leftPrint .printbtn {
+
+	margin:10px 0 10px 0;
+
+}
+
+#voucherWrapper .leftPrint a {
+
+	outline:none;
+
+}
+
+#voucherWrapper .leftPrint h3 {
+
+	margin-top:20px;
+
+}
+
+#voucherWrapper div.formFields {
+
+	width:451px;
+
+}
+
+#voucherWrapper div.formFields input {
+
+	float:right;
+
+	width:234px;
+
+	height:17px;
+
+	border-top:1px solid #ded6d4;
+
+	border-left:1px solid #ded6d4;
+
+	border-right:1px solid #f1f0ee;
+
+	border-bottom:1px solid #f1f0ee;
+
+	padding:3px 2px 0 2px;
+
+	margin-right:118px;
+
+	font:1em/1em Arial, Helvetica, sans-serif;
+
+	color:#494c4e;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/forms/input-bkg.png;diy10ea319e9414aca6) no-repeat;
+
+}
+
+#voucherWrapper .left div.formFields label,
+
+#voucherWrapper .expiredLeft div.formFields label {
+
+	float:left;
+
+	padding-top:3px;
+
+	margin-bottom:13px;
+
+}
+
+#voucherWrapper .expiredLeft form fieldset .tickButton {
+
+	clear:both;
+
+	margin-left:93px;
+
+}
+
+#voucherWrapper .left form fieldset .tickButton {
+
+	clear:both;
+
+}
+
+#voucherWrapper .left form fieldset .tickButton input {
+
+	margin:0;
+
+}
+
+#voucherWrapper .expiredLeft form fieldset .tickButton input {
+
+	margin:10px 0 0 0;
+
+}
+
+#voucherWrapper .left form fieldset .tickButton input#optIn,
+
+#voucherWrapper .expiredLeft form fieldset .tickButton input#optIn {
+
+	width:13px;
+
+	height:13px;
+
+}
+
+#voucherWrapper .left form fieldset .tickButton label,
+
+#voucherWrapper .expiredLeft form fieldset .tickButton label {
+
+	padding:0 0 0 3px;
+
+
+
+}
+
+#voucherWrapper hr {
+
+	clear:both;
+
+	height:2px;
+
+	border:0;
+
+	border-bottom:2px solid #f1efee;
+
+	padding-top:15px;
+
+	margin-bottom:15px;
+
+}
+
+#voucherWrapper .rightPrint div.formFields .label {
+
+	float:left;
+
+	padding-top:3px;
+
+}
+
+#voucherWrapper .left div.formFields input,
+
+#voucherWrapper .rightPrint div.formFields input {
+
+	margin-bottom:8px;
+
+	margin-right:74px !important;
+
+}
+
+#voucherWrapper form fieldset .sendButton {
+
+	margin-left:137px;
+
+}
+
+#voucherWrapper .contentHeaderWideContainer {
+
+	position:relative;
+
+}
+
+#voucherWrapper .contentHeaderWideContainer span.top {
+
+	position:absolute;
+
+	top:-12px;
+
+	left:1px;
+
+}
+
+#voucherWrapper .contentHeaderWideContainer span.bottom {
+
+	position:absolute;
+
+	top:175px;
+
+	left:1px;
+
+}
+
+#printVoucher img {
+
+	position:relative;
+
+	width:664px;
+
+	height:664px;
+
+}
+
+p.printVoucherLink a {
+
+	background: url(http://www.diy.com/diy/jsp/bq/images/navigation/icons/print-icon.png;diye292002cf1486651) right no-repeat;
+
+	padding-right:15px;
+
+	text-decoration:underline;
+
+}
+
+#printVoucher span {
+
+	color:#000;
+
+}
+
+#printVoucher span.name {
+
+	position:absolute;
+
+	top:495px;
+
+	left:80px;
+
+	font-size:2em;
+
+	padding-bottom:0px!important;
+
+	padding-bottom/**/:4px;
+
+}
+
+#printVoucher span.date {
+
+	position:absolute;
+
+	top:467px;
+
+	left:44px;
+
+	font-size:1.7em;
+
+	padding-bottom:0px!important;
+
+	padding-bottom/**/:4px;
+
+}
+
+#voucherWrapper #christmas a {
+
+	text-decoration:none;
+
+}
+
+#voucherWrapper #christmas a:hover {
+
+	text-decoration:underline;
+
+}
+
+#voucherWrapper #christmas ul {
+
+	margin:0;
+
+}
+
+#voucherWrapper #christmas ul li {
+
+	border:3px solid #f1efee;
+
+	margin:0;
+
+	padding:0;
+
+	float:left;
+
+	width:294px;
+
+	margin:0 17px 0 0;
+
+	padding:0;
+
+	background:none;
+
+}
+
+#voucherWrapper #christmas .header {
+
+	margin:25px 0 15px 0;
+
+}
+
+#voucherWrapper #christmas .banner {
+
+	margin:15px 0;
+
+}
+
+#voucherWrapper #christmas ul li.last {
+
+	margin-right:0;
+
+}
+
+#voucherWrapper #christmas ul li p {
+
+	padding:10px;
+
+	width:274px;
+
+}
+
+
+
+#voucherWrapper #middle {
+
+	height:200px;
+
+}
+
+#voucherWrapper #middle #offerBtn {
+
+	float:right;
+
+	padding-bottom:20px;
+
+	padding-right:10px;
+
+}
+
+
+
+/**
+
+* =14: Register
+
+*/
+
+#register .requiredNotice {
+
+	float:right;
+
+	padding:14px 15px 2px 0;
+
+}
+
+#register h2 {
+
+	float: left;
+
+}
+
+#register form fieldset {
+
+	clear:both;
+
+}
+
+#register form fieldset {
+
+	width:902px;
+
+	padding:15px 15px 0 15px;
+
+	border-top:3px solid #f60;
+
+	border-left:1px solid #e8e5e4;
+
+	border-right:1px solid #e8e5e4;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/register/register-image.jpg;diy8fcbdd299924989f) bottom right no-repeat;
+
+}
+
+#register form fieldset label {
+
+	float:left;
+
+	padding-top:3px;
+
+	width:126px;
+
+}
+
+#register form fieldset TD.right label {
+
+	width:144px;
+
+}
+
+
+
+#register form fieldset .text {
+
+	width:204px;
+
+	height:17px;
+
+	float:left;
+
+	border-top:1px solid #ded6d4;
+
+	border-left:1px solid #ded6d4;
+
+	border-right:1px solid #f1f0ee;
+
+	border-bottom:1px solid #f1f0ee;
+
+	padding:3px 2px 0 2px;
+
+	margin:1px 5px 0 0;
+
+	font:1em/1em Arial, Helvetica, sans-serif;
+
+	color:#494c4e;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/forms/input-bkg.png;diy10ea319e9414aca6) no-repeat;
+
+}
+
+#register table#registerTable {
+
+	margin: 15px 0 0 0;
+
+	width:768px;
+
+	border-collapse:collapse;
+
+}
+
+#register td {
+
+	width:374px;
+
+	float:none;
+
+	padding:0;
+
+	vertical-align: bottom;
+
+}
+
+#register td.right {
+
+	float:none;
+
+	width:394px;
+
+}
+
+#register td.middle {
+
+	padding:14px 0 2px 0;
+
+}
+
+#register td label .small {
+
+	font-size:.9em;
+
+}
+
+#register form fieldset .clear {
+
+	height:15px;
+
+}
+
+#register form fieldset .registerButton {
+
+	float:right;
+
+	margin-right:174px;
+
+}
+
+#register #dpa {
+
+	margin-top:15px;
+
+}
+
+#register #dpa p {
+
+	margin-bottom:10px;
+
+}
+
+#register .errorInlineLeft {
+
+	padding:0 0 3px 125px;
+
+	color:#f00;
+
+}
+
+#register .errorInlineRight {
+
+	padding:0 0 3px 143px;
+
+	color:#f00;
+
+}
+
+#register h4 {
+
+	font-size:1em;
+
+}
+
+#register #toolTipIcon span,
+
+#register a#toolTipInfo {
+
+	margin-right:15px;
+
+}
+
+#register form fieldset #createPassword.text {
+
+	width:147px;
+
+}
+
+.sideBoxRegister form fieldset #createPassword.text {
+
+	width:175px;
+
+}
+
+.sideBoxRegister form fieldset #confirmPassword.text {
+
+	width:175px;
+
+}
+
+
+
+/**
+
+* =15: Tooltips
+
+*/
+
+#toolTipIcon {
+
+	position:relative;
+
+}
+
+#toolTipIcon span {
+
+	position:absolute;
+
+	top:4px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/tooltips/info.png;diy7610aab680fb8b2e) no-repeat;
+
+}
+
+#toolTipIcon span,
+
+a#toolTipInfo {
+
+	float:right;
+
+	width:18px;
+
+	height:18px;
+
+}
+
+a#toolTipInfo {
+
+	position:relative;
+
+	z-index:1;
+
+    text-decoration:none !important;
+
+	cursor:help;
+
+	margin-top:4px;
+
+}
+
+a#toolTipInfo span {
+
+	display:none;
+
+	position:absolute;
+
+	z-index:100;
+
+	top:19px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/tooltips/shadow.gif;diye6f97d1ce504049c) bottom left no-repeat #F7F7F5;
+
+	padding:5px;
+	width: 200px;
+
+}
+
+a#toolTipInfo:hover span {
+
+	display:block;
+
+	position:absolute;
+
+	left:0;
+
+}
+
+a#toolTipInfo p {
+
+	width:235px;
+
+	padding:7px 10px;
+
+	border-left:1px solid #e8e5e4;
+
+	border-right:1px solid #e8e5e4;
+
+	background-color:#fff8f4;
+
+	line-height:normal;
+
+	font-size:.9em;
+
+	color:#494c4e !important;
+
+}
+
+p.discountMessageMainCart {
+
+	font-size:.9em;
+
+	text-align:right;
+
+	width:902px;
+
+	margin:15px 0 0 15px;
+
+	padding:0 !important;
+
+	line-height:normal;
+
+	font-weight:normal;
+
+	border:0;
+
+}
+
+
+
+/**
+
+* =16 Password Strength indicators
+
+*/
+
+
+
+/*  Generic */
+
+#pwdStrength {
+
+	float:left;
+
+	margin:-3px 0 0 5px;
+
+}
+
+#pwdStrength .passwordBlank,
+
+#pwdStrength .passwordInvalid,
+
+#pwdStrength .passwordWeak,
+
+#pwdStrength .passwordMedium,
+
+#pwdStrength .passwordStrong {
+
+	text-align:center;
+
+	font-weight:bold !important;
+
+	font-size:.9em;
+
+	height:26px;
+
+	width:52px;
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/register/pw_blank.png;diy6d91170d6071cd46) no-repeat bottom left;
+
+	display:block;
+
+}
+
+#pwdStrength .passwordInvalid {
+
+	background:url(/diy/jsp/bq/images/register/pw_invalid.png) no-repeat bottom left;
+
+}
+
+#pwdStrength .passwordWeak {
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/register/pw_weak.png;diyc790411b6ed4e3c1) no-repeat bottom left;
+
+}
+
+#pwdStrength .passwordMedium {
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/register/pw_medium.png;diy9086da27352bb615) no-repeat bottom left;
+
+}
+
+#pwdStrength .passwordStrong {
+
+	background:url(http://www.diy.com/diy/jsp/bq/images/register/pw_strong.png;diyf2bf207874d48253) no-repeat bottom left;
+
+}
+
+
+
+/* Register page */
+
+#register #pwdStrength {
+
+	margin:-3px 5px 0 0;
+
+}
+
+
+
+/* Colours register page */
+
+#coloursWrapper #pwdStrength {
+
+	margin:-2px 0 0 5px;
+
+}
+
+
+
+/* My Account edit sign in details page */
+
+#passwordcontents #pwdStrength {
+
+	margin:-8px 0 0 5px;
+
+}
+
+/* Background while deletinc credit cart */
+#background_overlay { 
+	position: fixed; 
+	width: 100%; 
+	height: 100%; 
+	z-index:5002; 
+	top: 0px; 
+	left: 0px; 
+	background-color:#666; 
+	opacity: 0.6; filter: 
+	alpha(opacity=60); 
+	-moz-opacity: 0.6; 
+	visibility: visible !important; 
+}
+
+/* Popup while deletinc credit cart */						
+.deleteCardPopup {
+	font-weight:bold;
+	text-align: center;
+	position:fixed;
+    top:40%;
+    left:40%;
+    width:300px;
+	padding: 30px;
+	z-index: 5003;
+	border: 4px solid #ded6d4;
+	background: #fff;
+}
+.deleteCardPopup #buttonNo{
+	padding-left:20px;
+}
+
+.deleteCardPopup #buttonYes{
+	padding-right:20px;
+}
